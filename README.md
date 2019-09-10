@@ -247,7 +247,7 @@ your submission must pass the following checks that
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically
 assesses:
 
-- Repository has at least 5 commit(s) beyond the specified threshold
+- Repository has at least 5 commit(s) beyond the current baseline
 - The DisplayOutput.java in src/main/java/labone has at least 2 multiple-line Java comment(s)
 - The DisplayOutput.java in src/main/java/labone has at least 2 single-line Java comment(s)
 - The DisplayOutput.java in src/main/java/labone has exactly 0 of the `Add Your Name Here` fragment
