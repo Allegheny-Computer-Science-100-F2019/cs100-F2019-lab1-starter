@@ -21,10 +21,10 @@
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/) and
 [GatorGrader](https://github.com/GatorEducator/gatorgrader/), this repository
-contains the solution for a laboratory assignment in an introductory computer
+contains the starter for a laboratory assignment in an introductory computer
 science class that uses the Java programming language. The Travis CI builds for
-this repository will pass, as evidenced by a green &#x2714; instead of a red
-&#x2717; appearing in the commit logs. An instructor would use this repository
+this repository will not pass, as evidenced by a red &#x2717; instead of a green
+&#x2714; appearing in the commit logs. An instructor would use this repository
 to create a "starter" repository with purposefully omitted features that a
 student would then need to add in order to achieve the stated learning
 objectives. Please bear in mind that much of the content in this document is
@@ -247,7 +247,7 @@ your submission must pass the following checks that
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically
 assesses:
 
-- Repository has at least 10 commit(s)
+- Repository has at least 5 commit(s) beyond the specified threshold
 - The DisplayOutput.java in src/main/java/labone has at least 2 multiple-line Java comment(s)
 - The DisplayOutput.java in src/main/java/labone has at least 2 single-line Java comment(s)
 - The DisplayOutput.java in src/main/java/labone has exactly 0 of the `Add Your Name Here` fragment
@@ -274,9 +274,31 @@ addition to returning a zero exit code (which you can access by typing the
 command `echo $?`).
 
 ```
-        ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-        ┃ Passed 20/20 (100%) of checks for cs100-F2019-lab1! ┃
-        ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+-~-  FAILURES  -~-
+
+✘  The reflection.md in writing has at least 300 word(s) in total
+   ➔  Found 56 word(s) in total of file reflection.md
+✘  The reflection.md in writing has exactly 0 of the 'Add Your Name Here' fragment
+   ➔  Found 1 fragment(s) in the reflection.md or the output
+✘  The DisplayOutput.java in src/main/java/labone has exactly 0 of the 'TODO' fragment
+   ➔  Found 3 fragment(s) in the DisplayOutput.java or the output
+✘  The DisplayOutput.java in src/main/java/labone has exactly 1 of the 'import java.util.Date' fragment
+   ➔  Found 0 fragment(s) in the DisplayOutput.java or the output
+✘  The DisplayOutput.java in src/main/java/labone has exactly 1 of the 'new Date()' fragment
+   ➔  Found 0 fragment(s) in the DisplayOutput.java or the output
+✘  The reflection.md in writing has exactly 1 of the 'code_block' tag
+   ➔  Found 0 tag(s) in the reflection.md file
+✘  The DisplayOutput.java in src/main/java/labone has exactly 0 of the 'Add Your Name Here' fragment
+   ➔  Found 2 fragment(s) in the DisplayOutput.java or the output
+✘  The command 'gradle -q --console plain run' executes correctly
+   ➔  The command returned the error code 1
+✘  The command output has exactly 1 match(es) of the 'Hello\\s+\\w+\\.(\\n)Gradle(\\s+\\w+)*\\.(\\n)Docker(\\s+\\w+)*\\.' regular expression
+   ➔  Found 0 match(es) of the regular expression in output
+
+
+        ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+        ┃ Passed 11/20 (55%) of checks for cs100-F2019-lab1! ┃
+        ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
 ## Downloading Project Updates
@@ -344,7 +366,7 @@ If you have found a problem with this assignment's provided source code or
 documentation, then you can go to the [Computer Science 100 Fall 2019 Lab
 1](https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-lab1-starter)
 repository and [raise an
-issue](https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-lab1-solution/issues).
+issue](https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-lab1-starter/issues).
 If you have found a problem with the [GatorGrader
 tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks
 your assignment, then you can also [raise an
