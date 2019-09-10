@@ -282,6 +282,8 @@ command `echo $?`).
    ➔  Found 1 fragment(s) in the reflection.md or the output
 ✘  The DisplayOutput.java in src/main/java/labone has exactly 0 of the 'TODO' fragment
    ➔  Found 3 fragment(s) in the DisplayOutput.java or the output
+✘  Repository has at least 18 commit(s)
+   ➔  Found 10 commit(s) in the Git repository
 ✘  The DisplayOutput.java in src/main/java/labone has exactly 1 of the 'import java.util.Date' fragment
    ➔  Found 0 fragment(s) in the DisplayOutput.java or the output
 ✘  The DisplayOutput.java in src/main/java/labone has exactly 1 of the 'new Date()' fragment
@@ -290,8 +292,6 @@ command `echo $?`).
    ➔  Found 0 tag(s) in the reflection.md file
 ✘  The DisplayOutput.java in src/main/java/labone has exactly 0 of the 'Add Your Name Here' fragment
    ➔  Found 2 fragment(s) in the DisplayOutput.java or the output
-✘  The command 'gradle -q --console plain run' executes correctly
-   ➔  The command returned the error code 1
 ✘  The command output has exactly 1 match(es) of the 'Hello\\s+\\w+\\.(\\n)Gradle(\\s+\\w+)*\\.(\\n)Docker(\\s+\\w+)*\\.' regular expression
    ➔  Found 0 match(es) of the regular expression in output
 
